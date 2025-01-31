@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: RHEL-9.5.0_HVM-20241211-x86_64-0-Hourly2-GP3
     strategy:
       matrix:
         service: [eureka-service, api-gateway, user-service, auth-service, inventory-service, reviews-service, order-service, notification-service]
